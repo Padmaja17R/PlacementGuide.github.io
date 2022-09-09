@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Placement Guide - A one stop destination for your success</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/utils.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <img class="logo" src="img/clg-logo.png">
+        <a href="index.html">Home</a>
+        <a href="preparation.html">Preparation</a>
+        <a href="success.html">Success Stories</a>
+        <a href="post.html" class="active">Post</a>
+        <a href="contact.html">Contact</a>
+        <div class="containericon" onclick="myFunction1(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+    </div>
+    <h2 class="heading-main">Share your experience</h2>
+    <div class="container-post">
+        <form action="connect.php" method="post">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="name" placeholder="Name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="email" placeholder="Email id">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Year of Passing Out</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="Passingyear" placeholder="Year of passing out">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Company</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="CompanyName" placeholder="Company Name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">LinkedIn URL</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="linkedinURL" placeholder="LinkedIn URL">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Share your Experience</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="Shareexperience" placeholder="Do share your experience" style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row submit">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+    </div>
+</body>
+</html>
